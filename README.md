@@ -21,12 +21,12 @@ The source code includes:
     ```
 ## Train and test SibNet model
 The following configurations and commands works under the **src** folder
-1. Config the path to data images, segmentation masks, seed masks and sibling relation maps on constants.py
+1. Config the path to data images, segmentation masks, seed masks and sibling relation maps in *constants.py*
 1. How to train:
-    * Edit the data type in config.py
+    * Edit the data type in *config.py*
     * Run ```python main.py train```
 1. How to test:
-    * Edit the path to trained model (ckpt_path) in config.py
+    * Edit the path to trained model (ckpt_path) in *config.py*
     * Run ```python main.py test```
 
 
