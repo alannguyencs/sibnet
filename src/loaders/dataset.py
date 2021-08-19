@@ -7,7 +7,7 @@ SIBLING_MASKS = ['half_polygon', 'full_polygon', 'left_polygon', 'bottom_left_po
 class FoodDataset(Dataset):
 	def __init__(self, ann_file, transform=None):
 		self.ann_file = DATA_PATH + 'train_val/' + ann_file
-		self.data_path = DATA_PATH + 'data256/'
+		self.data_path = DATA_PATH + 'images/'
 		self.mask_path = DATA_PATH + 'mask/'
 		self.transform = transform
 		self.dataset = list(open(self.ann_file, 'r'))

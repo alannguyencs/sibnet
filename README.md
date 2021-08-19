@@ -15,7 +15,7 @@ The source code includes:
     source ~/.bashrc
     conda activate sibnetenv
     ```
-1. Setup cython libraries: direct to src/alcython/ and run following bash command
+1. Setup cython libraries: direct to src/alcython/ and run the following bash command
     ```bash
     python setup.py build_ext --inplace
     ```
