@@ -73,4 +73,4 @@ def test_speed(arch_id, model_id, food_type):
 def test_new_images(arch_id, model_id, food_type, image_dir):
 	ckpt_path = CKPT_PATH + "SIBNET_v{}_{}_train_100_{}.ckpt".format(arch_id, food_type, model_id)
 	model = sibnet.Model(arch.Arch())
-	model.test_instance_map_new_data(ckpt_path)
+	model.test_instance_map_new_data(ckpt_path, image_dir)

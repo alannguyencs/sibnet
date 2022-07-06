@@ -298,7 +298,9 @@ class Model():
 		self.model.eval()
 
 		model_name = ckpt_path.split(CKPT_PATH)[-1][:-5]
-		mask_dir = util_os.gen_dir("{}{}_on_{}".format(RESULT_PATH, model_name, loader.name), True)
+		result_path = "{}{}_on_{}".format(RESULT_PATH, model_name, loader.name)
+		print ("The results is found at {}".format(result_path))
+		mask_dir = util_os.gen_dir(result_path, True)
 		image_path_ids = defaultdict(lambda : -1, OrderedDict())
 				
 		for _, batch_data in tqdm(enumerate(loader.loader)):
