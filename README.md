@@ -19,7 +19,6 @@ The source code includes the implementations for:
 1. Setup and activate anaconda environment:
     ```bash
     conda env update --file environment.yml --prune
-    source ~/.bashrc
     conda activate sibnetenv
     ```
 1. Setup cython libraries: direct to src/alcython/ and run the following bash command
