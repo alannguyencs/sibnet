@@ -78,7 +78,6 @@ class Arch(nn.Module):
 
         #counting
         self.conv_cnt = nn.Sequential(*list(resnet_model.children())[7]) #5
-        # self.AvgPool2d = nn.AvgPool2d(kernel_size=7, stride=1, padding=0) #6
         self.AvgPool2d = nn.AdaptiveAvgPool2d(output_size=(1, 1)) #6
         self.fc = nn.Linear(in_features=2048, out_features=1, bias=True) #7
 
