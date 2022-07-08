@@ -3,7 +3,7 @@ Food computing has recently attracted considerable research attention due to its
 
 Check out our journal paper [here](https://www.sciencedirect.com/science/article/pii/S0031320321006464).
 
-The images and segmentation masks are publicly available to download [here](https://drive.google.com/file/d/1tXtxZE7cI1uhbay_b6I4qEz86zh0R8kq/view?usp=sharing).
+The images and segmentation masks are publicly available to download [here](https://ieee-dataport.org/documents/foodcounting).
 
 ![SibNet Performance](images/sibnet_result.png)
 
